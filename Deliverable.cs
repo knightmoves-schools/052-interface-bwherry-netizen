@@ -1,3 +1,5 @@
 ﻿namespace knightmoves;
 
-// Add your code here
+public interface Deliverable {
+  bool Deliver (string address);
+}
